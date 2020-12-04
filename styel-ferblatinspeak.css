@@ -1,0 +1,88 @@
+
+.backround {
+  background-image: url(img/phineas_ferb.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.main{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.nav{
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px 4px rgba(0,0,0,0.5);
+    
+}
+.navimgl{
+    height: 100%;
+    float: left;
+    margin-left: 60px;
+    margin-right: -120px;
+}
+.navimgr{
+    height: 100%;
+    float: right;
+    margin-right: 60px;
+    margin-left: -120px;
+}
+
+#txt-input{
+    width: 50%;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.09);
+}
+
+button{
+    height: 30px;
+    margin-top: 20px;
+    background-color: yellow;
+    font-weight: 600;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+#output{
+    width: 50%;
+    margin: auto;
+    height: 150px;
+    border: 3px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.09);
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 600px){
+    
+    .main{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        
+    }
+      
+}
+
+
+
+
+
+
+
+
