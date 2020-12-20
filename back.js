@@ -13,7 +13,7 @@ function getTranslationURL(Text) {
 
 //define function errr handle 
 function errorHandler(error) {
-    console.log("error occured",error);;
+    console.log("error occured",error);
     alert("server is down , Try Later Plz !!")
 }
 
